@@ -44,6 +44,6 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
         mGoogleSignInClient.signOut();
         FirebaseAuth.getInstance().signOut();
         Log.w("Info", "Signed Out");
-        startActivity(new Intent(HomeScreen.this,MainActivity.class));
+        startActivity(new Intent(HomeScreen.this,LoginScreen.class));
     }
 }
