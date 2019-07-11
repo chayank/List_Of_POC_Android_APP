@@ -8,4 +8,6 @@
     <string name="female">Female</string>
     <string name="male">Male</string>
     <string name="Enter_User_Name">Enter User Name</string>
+    <string name="logout">Logout</string>
+    <string name="date_default">12th Feb,1997</string>
 </resources>

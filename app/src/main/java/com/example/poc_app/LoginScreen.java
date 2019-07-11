@@ -88,7 +88,7 @@ public class LoginScreen extends AppCompatActivity {
     private void updateUI(FirebaseUser currentUser) {
         if (currentUser != null) {
 
-            Intent Registration_form=new Intent(LoginScreen.this,BasicInformation.class);
+            Intent Registration_form=new Intent(LoginScreen.this,HomeScreen.class);
             Registration_form.putExtra("UserName",currentUser.getDisplayName());
             startActivity(Registration_form);
 
